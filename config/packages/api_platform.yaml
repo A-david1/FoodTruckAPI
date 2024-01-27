@@ -1,0 +1,10 @@
+api_platform:
+    title: 'Foodtruck API'
+    version: '1.0.0'
+    description: 'API for a technical test'
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
